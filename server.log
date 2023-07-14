@@ -1,0 +1,53 @@
+Got request to update:	IP: 192.168.0.6 | Port: 54321
+Initialized Server Socket. Server socket information: 0.0.0.0:12345
+Got request to update:	IP: 192.168.0.5 | Port: 54321
+Got request to join:	IP: 192.168.0.6 | Port: 54321
+Got request to subscribe for:	IP: 192.168.0.6 | Port: 54321 | Article: Sports;testAuthor;TestOrg;
+successfully subscribed for:	IP: 192.168.0.6 | Port: 54321 | Article: sports;testauthor;testorg;
+Got request to publish from:	IP: 192.168.0.6 | Port: 54321 | Article: Sports;testAuthor;TestOrg;This is an auto-generated article from the test command.
+number of addresses found in subscriptions for given publication: 4
+number of addresses to send publication to: 4
+Got request to update:	IP: 192.168.0.6 | Port: 54321
+Got request to unsubscribe for:	IP: 192.168.0.6 | Port: 54321 | Article: Sports;testAuthor;TestOrg;
+successfully unsubscribed for:	IP: 192.168.0.6 | Port: 54321 | Article: sports;testauthor;testorg;
+Got request to leave:	IP: 192.168.0.6 | Port: 54321
+Got request to join:	IP: 192.168.0.5 | Port: 54321
+Got request to subscribe for:	IP: 192.168.0.5 | Port: 54321 | Article: Sports;testAuthor;TestOrg;
+successfully subscribed for:	IP: 192.168.0.5 | Port: 54321 | Article: sports;testauthor;testorg;
+Got request to publish from:	IP: 192.168.0.5 | Port: 54321 | Article: Sports;testAuthor;TestOrg;This is an auto-generated article from the test command.
+number of addresses found in subscriptions for given publication: 4
+number of addresses to send publication to: 4
+Got request to update:	IP: 192.168.0.5 | Port: 54321
+Got request to unsubscribe for:	IP: 192.168.0.5 | Port: 54321 | Article: Sports;testAuthor;TestOrg;
+successfully unsubscribed for:	IP: 192.168.0.5 | Port: 54321 | Article: sports;testauthor;testorg;
+Got request to leave:	IP: 192.168.0.5 | Port: 54321
+Got request to join:	IP: 168.34.0.24 | Port: 54325
+Got request to join:	IP: 168.34.0.24 | Port: 54325
+Got request to leave:	IP: 168.34.0.24 | Port: 54325
+Got request to leave:	IP: 168.34.0.24 | Port: 54325
+Got request to join:	IP: 192.168.0.6 | Port: 54321
+Got request to subscribe for:	IP: 192.168.0.6 | Port: 54321 | Article: incorrect;;;alsoIncorrect
+Error: first argument must be empty or one of the following types: Sports, Lifestyle, Entertainment, Business, Technology, Science, Politics, Health
+failed to create subscription and thus also to add it.
+subscribe rejected or was unsuccessful for:	IP: 192.168.0.6 | Port: 54321 | Article: incorrect;;;alsoIncorrect
+Got request to subscribe for:	IP: 192.168.0.6 | Port: 54321 | Article: sports;;;
+successfully subscribed for:	IP: 192.168.0.6 | Port: 54321 | Article: sports;;;
+Got request to subscribe for:	IP: 168.34.0.24 | Port: 54325 | Article: sports;;;
+successfully subscribed for:	IP: 168.34.0.24 | Port: 54325 | Article: sports;;;
+Got request to unsubscribe for:	IP: 168.34.0.24 | Port: 54325 | Article: sports;;;
+successfully unsubscribed for:	IP: 168.34.0.24 | Port: 54325 | Article: sports;;;
+Got request to publish from:	IP: 192.168.0.6 | Port: 54321 | Article: sports;;;This is a sports message from Client1
+number of addresses found in subscriptions for given publication: 2
+number of addresses to send publication to: 2
+Got request to update:	IP: 192.168.0.5 | Port: 54321
+Initialized Server Socket. Server socket information: 0.0.0.0:12345
+Got request to join:	IP: 192.168.0.5 | Port: 54321
+Got request to subscribe for:	IP: 192.168.0.5 | Port: 54321 | Article: sports;;;
+successfully subscribed for:	IP: 192.168.0.5 | Port: 54321 | Article: sports;;;
+Got request to publish from:	IP: 192.168.0.5 | Port: 54321 | Article: sports;;;This is a sports message from client 2
+number of addresses found in subscriptions for given publication: 3
+number of addresses to send publication to: 3
+Got request to publish from:	IP: 192.168.0.5 | Port: 54321 | Article: sports;;;This is a message sent from client 2 while client 1 is down
+number of addresses found in subscriptions for given publication: 3
+number of addresses to send publication to: 3
+Got request to update:	IP: 192.168.0.6 | Port: 54321
